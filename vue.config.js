@@ -2,11 +2,11 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/xk.cao/newslate/'
+    ? '/SmileCorporation/pageVue/'
     : '/',
-    devServer: {
-      historyApiFallback: {
-        rewrites: [{ from: /\//, to: '/404.html' }],
-      },
-    },
+    // devServer: {
+    //   historyApiFallback: {
+    //     rewrites: [{ from: /\//, to: '/404.html' }],
+    //   },
+    // },
 })
